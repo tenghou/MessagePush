@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MessagePush!</string>
+    <string name="app_name">消息推送</string>
+    <string name="tag_hint">职务为大小写字母，数字，下划线,中文， 多个用以逗号分隔</string>
+    <string name="alias_hint">班级为大小写字母，数字，下划线</string>
+    <string name="style_hint">style为数字</string>
+    <string name="error_style_empty">style不能为空</string>
+    <string name="error_alias_empty">班级不能为空</string>
+    <string name="error_tag_empty">职务不能为空</string>
+    <string name="error_tag_gs_empty">格式不对</string>
+    <string name="error_network">网络连接异常,初始化失败 请检查网络！</string>
+    <string name="logining">程序在后台执行, 请查看日志！</string>
+    <string name="noteone">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;本App只会暂存最新的10条信息到手机，冗余的消息将自动删除，请各位放心使用！\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;请将此App添加到【自启动管理】或【受保护的应用】或【白名单】列表，并允许在后台保持联网可用，否则可能收不到通知！</string>
+    <string name="titleone">使用说明</string>
+    <string name="titletwo">设置年级和班级</string>
+    <string name="hisButton">&#160;历史通知&#160;</string>
+    <string name="setNote">注意：班级和年级都只需填阿拉伯数字，如1，2016。只有当屏幕显示设置成功字样时才算成功设置，否则设置无效。</string>
+    <string name="setClass">设置班级</string>
+    <string name="classHint">请输入班级</string>
+    <string name="className">班级:</string>
+    <string name="setGrade">设置年级</string>
+    <string name="gradeHint">请输入年级</string>
+    <string name="gradeName">年级:</string>
+    <string name="setting_su">设置成功</string>
+</resources>

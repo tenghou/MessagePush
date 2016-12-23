@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:layout_width="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/tiledstripes"
+        android:layout_height="fill_parent" >
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:textSize="20sp"
+        android:text="@string/titleone"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dip" >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:textColor="#282828"
+            android:background="@drawable/corners_bg"
+            android:text="@string/noteone"
+             />
+        
+        <Button
+            android:id="@+id/history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_alibuybutton"
+            android:text="@string/hisButton"/>
+
+        <EditText
+            android:id="@+id/msg_rec"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dip"
+            android:textColor="#282828"
+            android:visibility="invisible" />
+             
+       
+   </LinearLayout>
+      <Button
+            android:id="@+id/setting" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_alibuybutton"
+            android:textSize="20sp"
+            android:text="@string/titletwo" /> 
+</RelativeLayout>
